@@ -1,0 +1,120 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url('./background.svg') no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    .items {
+        text-align: center;
+        margin-right: 55%;
+        margin-top: 15%;
+        z-index: 10;
+        .title{
+            font-size: 18px;
+        }
+        .button{
+            margin-top:10%;
+            background: rgb(128,10,246);
+            background: linear-gradient(90deg, rgba(128,10,246,1) 60%, rgba(85,6,163,1) 95%);
+            color: white;
+            font-size: 20px;
+            border:none;
+            -webkit-box-shadow: 11px 11px 5px -9px rgba(0,0,0,0.39);
+            -moz-box-shadow: 11px 11px 5px -9px rgba(0,0,0,0.39);
+            box-shadow: 11px 11px 5px -9px rgba(0,0,0,0.39);
+            border-radius: 13px;
+            padding: 30px 50px;
+            .button:hover{
+                cursor: pointer;
+                background: white;
+                border:rgb(128,10,246);
+            }        
+        }
+
+    }
+
+    .image{
+        background: url('./shopping.svg') no-repeat;
+        position: fixed;
+        background-size: 700px;
+        background-attachment: fixed;
+        width: 700px;
+        height: 700px;
+        right: 0;
+        background-position: right;
+    }
+
+}
+
+
+.card{
+    height: 500PX;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    background-color: #e8e8e8;
+    background-position: center;
+    background-size: 80%;
+    overflow: scroll auto;
+    margin-left: 10%;
+    margin-top:45%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.21);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.21);
+
+   .cardsparents{
+       display: flex;
+       margin-top: 30px;
+       justify-content: space-around;
+   }
+   .female{
+    width: 150px;
+    height: 150px;
+    background:url('./female.svg') no-repeat;
+    background-size: 130px;
+    background-color: white;
+    background-position: center;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.21);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.21);
+    border-radius: 30px;
+    }
+.male{
+    width: 150px;
+    height: 150px;
+    background:url('./male.svg') no-repeat;
+    background-size: 130px;
+    background-color: white;
+    background-position: center;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.21);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.21);
+    border-radius: 30px;
+    }
+
+
+    .cardsItem{
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-around;
+        .items{
+        width: 150px;
+        height: 150px;
+        background-size: 130px;
+        background-color: white;
+        background-position: center;
+        -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.21);
+        -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.21);
+        box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.21);
+        border-radius: 30px;
+            
+        }
+    }
+}

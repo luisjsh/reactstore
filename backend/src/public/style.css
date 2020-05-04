@@ -1,0 +1,79 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: all ease 0.5;
+    background: rgb(244,195,233);
+    background: linear-gradient(0deg, rgba(244,195,233,1) 25%, rgba(255,255,255,1) 100%);
+}
+.homepage{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.directory-menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-item{
+    min-width: 30%;
+    height: 240px; 
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 7.5px 15px;
+    overflow: hidden;
+    border-radius: 1%;
+}
+
+
+.large{
+    height: 580px;
+}
+
+.backgroundimage{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position:center;   
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100%);
+    border: white;
+    overflow: hidden;
+}
+.backgroundimage:hover{
+    transform: scale(1.1);
+    filter:grayscale(0) contrast(1.1);
+    transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.095);
+}
+
+.content {
+    height: 90px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 10%;
+    position: absolute;
+}
+.content:hover{
+    cursor: pointer;
+    opacity: 90%;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 6px;
+    font-size: 22px;
+    color: #4a4a4a;
+}
+
+

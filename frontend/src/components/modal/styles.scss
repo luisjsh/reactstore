@@ -1,0 +1,31 @@
+.modal {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+
+    .close{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(35, 37, 37);
+        opacity: 0.95;
+            :hover{
+            cursor: pointer;
+            }
+        }
+
+    .forgotPassword{
+       margin-top:10px;
+    }
+    .form{
+        width: 80%;
+    }
+    
+}  
+
+

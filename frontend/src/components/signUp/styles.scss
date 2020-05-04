@@ -1,0 +1,24 @@
+.signup-page{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display:flex;
+    justify-content: space-around;
+        .image{
+            background:url('./signupimage.svg') no-repeat;
+            background-position: center;
+            background-size: 500px;
+            width: 500px;
+        }
+
+        .signup-card{
+            margin-top:10%;
+            justify-content: center;
+            .SignUp{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    
+}
+
